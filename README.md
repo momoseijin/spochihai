@@ -8,7 +8,7 @@
 
 実行には、DockerおよびDocker Composeが必要です。
 
-	$ docker-compose build
+	$ docker compose build
 
 ## 設定
 
