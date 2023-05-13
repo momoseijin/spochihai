@@ -23,15 +23,15 @@ Spotifyのトークンの取得方法は、[Spotify for Developers](https://deve
 
 .envのSPCHI\_PORTで設定したポートでHTTPサーバが起動される。 CTRL+Cで終了
 
-	$ docker-compose up
+	$ docker compose up
 
 以下の方法でバックグラウンド動作になる。
 
-	$ docker-compose up -d
+	$ docker compose up -d
 
 終了は以下の通り
 
-	$ docker-compose down
+	$ docker compose down
 
 ## アップデート
 
