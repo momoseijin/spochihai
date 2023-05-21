@@ -89,7 +89,7 @@ class Index {
 		if(this.storage.getItem('mstdn-instance')) {
 			idE('mstdn-instance').value=this.storage.getItem('mstdn-instance')
 		} else {
-			idE('mstdn-instance').value='mstdn.jp'
+			idE('mstdn-instance').value='real-escape.jp'
 		}
 
 		if(!this.access_token) {
