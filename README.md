@@ -35,7 +35,7 @@ Spotifyのトークンの取得方法は、[Spotify for Developers](https://deve
 
 ## アップデート
 
-最新版を git clone して docker-compose buildし再起動する。以下のスクリプトでも可能。
+最新版を git clone して docker compose buildし再起動する。以下のスクリプトでも可能。
 
 	$ bin/update.sh
 
