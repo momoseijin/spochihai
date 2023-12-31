@@ -16,7 +16,7 @@
 
 Spotifyのトークンの取得方法は、[Spotify for Developers](https://developer.spotify.com/documentation/web-api/quick-start/)を参照。
 
-	$ cp .env.example .env
+	$ cp example.env .env
 	$ vim .env
 
 ## 起動
