@@ -33,6 +33,31 @@ Spotifyのトークンの取得方法は、[Spotify for Developers](https://deve
 
 	$ docker compose down
 
+## ラズパイ環境でエラーになるとき
+
+Dockerfileから以下を修正してください。
+
+### depsステージ
+
+修正前
+
+	$ RUN --mount=type=cache,target=/usr/local/share/.cache/yarn \
+	$ yarn install --frozen-lockfile
+
+修正後
+	
+	$ RUN yarn install --frozen-lockfile
+
+### prod-depsステージ
+
+修正前
+
+	$ RUN --mount=type=cache,target=/usr/local/share/.cache/yarn \
+	$ yarn install --frozen-lockfile --production
+
+修正後
+
+	$ RUN yarn install --frozen-lockfile --production
 
 # License
 
