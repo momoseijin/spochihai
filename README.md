@@ -33,25 +33,6 @@ Spotifyのトークンの取得方法は、[Spotify for Developers](https://deve
 
 	$ docker compose down
 
-## アップデート
-
-最新版を git clone して docker compose buildし再起動する。以下のスクリプトでも可能。
-
-	$ bin/update.sh
-
-# 開発時のTIPS
-
-## .env ファイルを現在のシェルの環境変数として設定する方法
-
-ローカル環境での開発時に便利です。
-
-	$ eval "$( cat .env | perl -E 'while(<>) { chomp; say "export $_" }' )" 
-
-## serverプロセスがdetachされたときにkillする方法
-
-エラーがでるとたまにdetachされてしまう
-
-	$ ps ax | grep 'node var/build/server.js' | grep -v 'grep' | awk '{ print $1 }' | xargs kill
 
 # License
 
