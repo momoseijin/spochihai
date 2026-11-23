@@ -45,6 +45,8 @@ export default {
 
 	'footer.source':         'Source code',
 	'footer.author':         'Author',
+	'footer.source_this':    'Source code of this site',
+	'footer.modified_by':    'Modified by',
 
 	'error.no_storage':      'Web Storage is not available in this browser',
 	'error.auth':            'There was an error during the authentication',

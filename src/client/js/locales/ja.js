@@ -42,6 +42,8 @@ export default {
 
 	'footer.source':         'ソースコード',
 	'footer.author':         '制作',
+	'footer.source_this':    'このサイト（改変版）のソースコード',
+	'footer.modified_by':    '改変',
 
 	'error.no_storage':      'このブラウザではWebStorageが利用できません',
 	'error.auth':            '認証中にエラーが発生しました',

@@ -59,7 +59,7 @@ class Index {
 			idE('append-tag').value=this.storage.getItem('append-tag')
 		}
 
-		idE('mstdn-instance').value=this.storage.getItem('mstdn-instance') || 'mstdn.jp'
+		idE('mstdn-instance').value=this.storage.getItem('mstdn-instance') || 'real-escape.jp'
 
 		if(this.storage.getItem('trackinfo-us')) {
 			idE('trackinfo-us').checked=true
