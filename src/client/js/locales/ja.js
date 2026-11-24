@@ -42,7 +42,7 @@ export default {
 
 	'footer.source':         'ソースコード',
 	'footer.author':         '制作',
-	'footer.source_this':    'このサイト（改変版）のソースコード',
+	'footer.source_this':    'このサイトのソースコード',
 	'footer.modified_by':    '改変',
 
 	'error.no_storage':      'このブラウザではWebStorageが利用できません',
